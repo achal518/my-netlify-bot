@@ -2,7 +2,6 @@
 import json
 import os
 import requests
-
 # BOT_TOKEN ko environment variables se securely lena
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 TELEGRAM_URL = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
